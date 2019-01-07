@@ -1,7 +1,10 @@
 //step 1: The function returns a welcome message including the new person's name and position in line
-function takeANumber(katzDeliLine, name) { 
-  katzDeliLine.push(name)
-  return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line."
+var number =12
+function takeANumber(katzDeliLine) { 
+  //var number = 12
+  number++
+  katzDeliLine.push(number)
+  return ". You are number " + number + " in line."
 }
 //step 2 : The function returns the first person in line and then remove that individual from the line
 function nowServing(x) {  
